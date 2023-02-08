@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(97, 166, 245);
+}
+
+#game{
+    width: 600px;
+    height: 500px;
+    border: 5px solid rgb(0, 0, 0);
+    background-color: rgb(29, 89, 179);
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+#block{
+    height: 500px;
+    width: 70px;
+    background-color: rgb(12, 150, 35);
+    position: relative;
+    animation: move 2s infinite linear;
+
+}
+
+#gap{
+    height: 200px;
+    width: 70px;
+    background-color: rgb(29, 89, 179);
+    position: relative;
+    top: -300px;
+    animation: move 2s infinite linear;
+    
+}
+
+#bird{
+     height: 30px;
+    width: 30px;
+    background-color: rgb(44, 12, 12);
+    position: relative;
+    left: 100px;
+    top: -300px;
+  
+}
+
+
+
+@keyframes move {
+    0%{
+        left: 600px;
+    }
+    100%{
+        left: -100px;
+
+    }
+}
+
+/* @keyframes up {
+    0%{
+        top: -600px;
+    }
+    100%{
+        top: -100px;
+
+    }
+}
+ */
+
