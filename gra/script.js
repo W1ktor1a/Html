@@ -31,7 +31,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
         var cTop= (gapTop - 200);
         var dTop= (birdTop - 30);
        
-        if ((birdTop  > -250)||((blockSide < 150) && (blockSide > 80) && ((dTop > gapTop) || (birsTop < cTop)))) {
+        if ((birdTop  > -250)||((blockSide < 150) && (blockSide > 80) && ((dTop > gapTop) || (birdTop < cTop)))) {
             
             alert("END GAME. SCORE: "+ (counter-1));
             bird.style.top = -400 + "px";
